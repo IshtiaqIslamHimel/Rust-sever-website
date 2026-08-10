@@ -1,0 +1,6 @@
+{
+  "name": "Enardo Rust Server Hub",
+  "description": "Real-time statistics, player leaderboard, server status, and account linking for Enardo Rust game servers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
