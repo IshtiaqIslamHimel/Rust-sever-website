@@ -139,6 +139,6 @@ In production:
 - Rotate any credential immediately if it has ever been committed or sent to a browser.
 - `app.use(express.json({ limit: '32kb' }))` bounds request body size, and the WebSocket server caps payloads at 1 KB.
 
-![Store](screenshots/HomePage.JPG)
+![Home](screenshots/HomePage.JPG)
 
 ![Leaderboard](screenshots/leaderboard.JPG)
