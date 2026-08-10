@@ -138,3 +138,7 @@ In production:
 - Keep secrets server-side only; the frontend never sees MySQL credentials, RCON passwords, or API keys.
 - Rotate any credential immediately if it has ever been committed or sent to a browser.
 - `app.use(express.json({ limit: '32kb' }))` bounds request body size, and the WebSocket server caps payloads at 1 KB.
+
+![Store](screenshots/HomePage.JPG)
+
+![Leaderboard](screenshots/leaderboard.JPG)
